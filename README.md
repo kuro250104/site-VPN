@@ -13,7 +13,12 @@ Ce repository contient le starter kit du projet intégration statique Vpn dispon
 - [CSS niveau 9](https://microlead.fr/echelles/css)
 
 ## Importation dans figma
-Prenez les fichiers SVG dans le dossier Figma puis glissez/déposez dans votre navigateur en étant connecté sur figma pour avoir acces à la maquette.
+Afin de pouvoir intégrer correctement la maquette en vous positionnant en situation professionnelle, vous avez besoin d'un logiciel dédié utilisé par les graphistes. Figma est un logiciel de graphisme en ligne vous permettant d'interagir avec des travaux graphisques gratuitement : 
+
+- Rendez vous sur le site [Figma](https://www.figma.com/)
+- Créez vous un compte et connectez-vous
+- Dans votre espace de travail, faites un "glisser-déposer" du fichier .svg fourni dans ce repository dans le dossier "Figma"
+- Vous avez maintenant accès à l'ensemble de la maquette
 
 ## Previsualisation de la maquette
 
