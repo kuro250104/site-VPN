@@ -31,10 +31,6 @@ header{
     color: #FFFFFF;
     cursor: pointer;
 }
-.cancel_membership.hover{
-    background-color: #FFFFFF;
-    color: #030303;
-}
 nav{
     display: flex;
     justify-content: space-between;
@@ -119,7 +115,7 @@ nav{
     font-family: Arial, Helvetica, sans-serif;
 }
 .bot_download{
-
+    background-color: #111111;
     color:#FFFFFF;
     display: flex;
     justify-content: space-between;
