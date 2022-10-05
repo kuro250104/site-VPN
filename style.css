@@ -4,7 +4,7 @@ body{
     margin:0;
     font-family: 'Roboto', sans-serif;
 }
-
+ /*Header plus Banner*/
 header{
     background: #111111;
     padding: 40px 160px;
@@ -17,7 +17,6 @@ header{
 }
 .blue{
     color:#0FA2DB;
-    
 }
 .left{
     display: flex;
@@ -38,17 +37,15 @@ nav{
     padding: 25px 160px;
     color:#FFFFFF;
     font-family: Arial, Helvetica, sans-serif;
-
 }
+ /*Page with download button*/
 .download{
     background: linear-gradient( #00093A 20%, #111111 100%);
 }
-
 .top_download{
     display: flex;
     justify-content: space-between;
     padding: 30px 100px 100px 0px;
-    
 }
 .left_download{
     width: 60%;
@@ -61,7 +58,6 @@ nav{
     flex-direction: column;
 }
 .tr_download{
-    
     text-align: center;
     padding-top: 50px;
     padding-bottom: 30px;
@@ -72,7 +68,6 @@ nav{
 .tr_download p{
     color: #FFFFFF;
 }
-
 .bluedownload{
     color: #0FA2DB;
     font-size: 35px;
@@ -89,17 +84,13 @@ nav{
     background-color: #232323;;
     padding: 20px 50px 20px 50px;
     align-items: center;
-    
 }
-
-
 .dl_txt{
 
     color: #FFFFFF;
     font-size: 23px;
     padding-bottom: 10px;
 }
-
 .dl_button{
     font-size: 23px;
     padding: 10px 60px 10px 60px ;
@@ -108,7 +99,6 @@ nav{
     background-color: #0FA2DB;
     cursor: pointer;
 }
-
 .subttl{
     color: #FFFFFF;
     font-size: 15px;
@@ -120,22 +110,25 @@ nav{
     display: flex;
     justify-content: space-between;
     padding: 0px 50px 10px 50px;
-    
 }
+ /*Line with checkmark*/
 .check{
     display: flex;
     align-items: center;
 }
+ /*Part 2 with  Why VPN*/
 .why_vpn{
     background-color:#0C0C15 ;
+    padding: 100px 500px 200px 500px;
 }
 .vpn_title{
+    font-size: large;
     color:#0FA2DB ;
-    display: flex;
     text-align: center;
+    
 }
 .vpn_text{
-    color:#0FA2DB ;
+    color:#FFFFFF ;
     display: flex;
     text-align: center;
 }
