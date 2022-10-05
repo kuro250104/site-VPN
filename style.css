@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 body{
-    margin:0
+    margin:0;
+    font-family: 'Roboto', sans-serif;
 }
 
 header{
@@ -25,12 +28,101 @@ header{
     padding: 15px ;
     border-radius: 5px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 nav{
     display: flex;
     justify-content: space-between;
     background-color: #232323;
-    padding: 30px 160px;
-    color:#FFFFFF
+    padding: 25px 160px;
+    color:#FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
 
+}
+main{
+    background: linear-gradient( #00093A 20%, #111111 100%);
+}
+
+.top_main{
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px 100px 0px;
+    
+}
+.left_main{
+    width: 60%;
+    height: 60%;
+}
+.right_main{
+    width: 35%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+}
+.tr_main{
+    
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.tr_main h1{
+    color: #0FA2DB;
+}
+.tr_main p{
+    color: #FFFFFF;
+}
+
+.bluemain{
+    color: #0FA2DB;
+    font-size: 35px;
+}
+.whitemain{
+    color: #FFFFFF ;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.br_main{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #232323;;
+    padding: 20px 50px 20px 50px;
+    align-items: center;
+    
+}
+
+
+.dl_txt{
+
+    color: #FFFFFF;
+    font-size: 23px;
+    padding-bottom: 10px;
+}
+
+.dl_button{
+    font-size: 23px;
+    padding: 10px 60px 10px 60px ;
+    border-radius: 15px;
+    color: #ffffff;
+    background-color: #0FA2DB;
+    cursor: pointer;
+}
+
+.subttl{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bot_main{
+
+    color:#FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px 10px 50px;
+    
+}
+.check{
+    display: flex;
+    align-items: center;
 }
