@@ -4,7 +4,7 @@ body{
 
 header{
     background: #111111;
-    padding: 39px 165px;
+    padding: 40px 160px;
     display: flex;
     justify-content: space-between;
 }
@@ -25,4 +25,12 @@ header{
     padding: 15px ;
     border-radius: 5px;
     color: #FFFFFF;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #232323;
+    padding: 30px 160px;
+    color:#FFFFFF
+
 }
