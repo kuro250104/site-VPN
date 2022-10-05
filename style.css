@@ -126,3 +126,16 @@ nav{
     display: flex;
     align-items: center;
 }
+.why_vpn{
+    background-color:#0C0C15 ;
+}
+.vpn_title{
+    color:#0FA2DB ;
+    display: flex;
+    text-align: center;
+}
+.vpn_text{
+    color:#0FA2DB ;
+    display: flex;
+    text-align: center;
+}
