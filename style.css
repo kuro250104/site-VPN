@@ -23,12 +23,17 @@ header{
     display: flex;
     align-items: center;
     }
-.cancel_membership{
+.cancel_membership, .cancel_membership:visited {
+    transition: 0.4s;
     background-color: #2F2F2F;
     padding: 15px ;
     border-radius: 5px;
     color: #FFFFFF;
     cursor: pointer;
+}
+.cancel_membership.hover{
+    background-color: #FFFFFF;
+    color: #030303;
 }
 nav{
     display: flex;
@@ -39,50 +44,49 @@ nav{
     font-family: Arial, Helvetica, sans-serif;
 
 }
-main{
+.download{
     background: linear-gradient( #00093A 20%, #111111 100%);
 }
 
-.top_main{
-   
+.top_download{
     display: flex;
     justify-content: space-between;
     padding: 30px 100px 100px 0px;
     
 }
-.left_main{
+.left_download{
     width: 60%;
     height: 60%;
 }
-.right_main{
+.right_download{
     width: 35%;
     height: 35%;
     display: flex;
     flex-direction: column;
 }
-.tr_main{
+.tr_download{
     
     text-align: center;
     padding-top: 50px;
     padding-bottom: 30px;
 }
-.tr_main h1{
+.tr_download h1{
     color: #0FA2DB;
 }
-.tr_main p{
+.tr_download p{
     color: #FFFFFF;
 }
 
-.bluemain{
+.bluedownload{
     color: #0FA2DB;
     font-size: 35px;
 }
-.whitemain{
+.whitedownload{
     color: #FFFFFF ;
     font-size: 23px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.br_main{
+.br_download{
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -114,7 +118,7 @@ main{
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.bot_main{
+.bot_download{
 
     color:#FFFFFF;
     display: flex;
