@@ -119,16 +119,19 @@ nav{
  /*Part 2 with  Why VPN*/
 .why_vpn{
     background-color:#0C0C15 ;
-    padding: 100px 500px 200px 500px;
+    
 }
 .vpn_title{
-    font-size: large;
+    padding: 10px 0px 5px 0px;
+    font-size: 30px;
     color:#0FA2DB ;
     text-align: center;
     
 }
 .vpn_text{
+    font-size: 23px;
     color:#FFFFFF ;
+    padding: 10px 0px 50px 0px;
     display: flex;
     text-align: center;
-}
+    }
