@@ -12,10 +12,11 @@
 <body> 
     <header>
         <div class="left">
-            <img src="images/logo.png" height="39" width="35px"/>
+            <a href="index.html" title="SUFINGVPN" class="left">
+            <img src="images/logo.png"  height="39" width="35px"/>
             <span class="white">SURFING</span>
             <span class="blue">VPN</span>
-            
+            </a>
         </div>
         <div class="right">
             <button type="button" class="cancel_membership">CANCEL MY MEMBERSHIP</button>
@@ -23,12 +24,15 @@
     </header>
 <!-- HEAD -->
     <nav>
-        <span class="nav_left">
-            Email: cs@surfingvpn.com
+        <span class="nav_left">Email: <a data-bind-mailto="domain.email" data-text="domain.email" href="mailto:cs@surfingvpn.com" data-done="false" spellcheck="false">
+    cs@surfingvpn.com
+        </a>
+    </span>
+        <span class="nav_right">Customer Support:<a href="tel:+31205231052">
+            +31205231052
+        </a>
         </span>
-        <span class="nav_right">
-            Customer Support: +31205231052
-        </span>
+
     </nav>
 <!-- BANNER -->
     <main>
@@ -53,8 +57,9 @@
                 </div>
             </div>
         </div>
+    </div>
 <!-- DOWNLOAD -->
-        </div>
+        
         <span class="bot_download">
             <span class="check"><img src="images/check.png" width="45px" height="45px">&nbsp; HIGH SPEED</span>
             <span class="check"><img src="images/check.png" width="45px" height="45px">&nbsp; UNLIMITED DEVICES</span>
@@ -118,7 +123,7 @@
                         <button type="button" class="dl_button">GET STARTED</button>
                     </div>
                 </span>
-                <span class="right_protection"><img src="images/vpn_mobile.png" width="542px" height="533px"/></span>w
+                <span class="right_protection"><img src="images/vpn_mobile.png" width="542px" height="533px"/></span>
             </div>
         </div>
     </main>
@@ -143,16 +148,16 @@
             </span>
         </div>
         <span class="bottom_aside">
-            <p>Privacy Policy</p>
-            <p>Terms and conditions</p>
-            <p>Contact</p>
-            <p>How to uninstall</p>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms and conditions</a>
+            <a href="#">Contact</a>
+            <a href="#">How to uninstall</a>
         </span>
     </aside>
 <!-- FOOTER -->
     <footer>
         <p>Pay So B.V.,Markerkant 13,1314AN LK Almere,The Netherlands</p>
-        <p>Number:+31205231052</p>
+        <p>Number: <a href="tel:+31205231052">+31205231052</a></p>
     </footer>
     </main>
 </body>

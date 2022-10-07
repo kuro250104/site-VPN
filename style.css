@@ -4,12 +4,18 @@ body{
     margin:0;
     font-family: 'Roboto', sans-serif;
 }
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
  /*Header plus Banner*/
 header{
     background: #111111;
     padding: 40px 160px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .white{
 
@@ -30,6 +36,10 @@ header{
     color: #FFFFFF;
     cursor: pointer;
 }
+.cancel_membership:hover{
+    background-color: #FFFFFF;
+    color: #232323;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -37,6 +47,9 @@ nav{
     padding: 25px 160px;
     color:#FFFFFF;
     font-family: Arial, Helvetica, sans-serif;
+}   
+.nav_left{
+    color:#FFFFFF
 }
  /*Page with download button*/
 .download{
@@ -98,6 +111,12 @@ nav{
     color: #ffffff;
     background-color: #0FA2DB;
     cursor: pointer;
+    transition: 0.4s;
+}
+.dl_button:hover{
+    color: #0FA2DB;
+    background-color: #FFFFFF;
+   
 }
 .subttl{
     color: #FFFFFF;
@@ -228,7 +247,9 @@ nav{
 }
 .right_protection{
     position:relative;
-    bottom: 0px;
+    bottom: -5px ;
+    right: 0px;
+    
 }
 .left_protection{
     padding-right: 50px;
@@ -280,7 +301,7 @@ aside{
     font-size: 16px;
 }
 
-.box_aside p{
+.box_aside a{
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     display: block;
@@ -294,10 +315,16 @@ aside{
     display: flex;
     justify-content: space-between;
 }
+
 /* footer */
 footer{
     padding: 50px 410px 40px 410px;
     background-color: #111111;
     color: #FFFFFF;
     text-align: center;
+    
+}
+footer a{
+    font-size: 23px;
+
 }
