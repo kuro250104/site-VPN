@@ -315,6 +315,10 @@ aside{
     display: flex;
     justify-content: space-between;
 }
+.bottom_aside a:hover{
+    color: #0FA2DB;
+    transition: 0.4s;
+}
 
 /* footer */
 footer{
