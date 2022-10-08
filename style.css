@@ -173,6 +173,10 @@ nav{
     display: flex;
     flex-direction: column;   
 }
+.description_features a:hover{
+    color: #0FA2DB;
+    transition: 0.4s;
+}
 .description_features img{
     padding-bottom: 20px;
 }
