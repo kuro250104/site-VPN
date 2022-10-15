@@ -9,6 +9,8 @@ a{
     color: #ffffff;
 }
 
+
+
  /*Header plus Banner*/
 header{
     background: #111111;
@@ -16,6 +18,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .white{
 
@@ -30,10 +33,12 @@ header{
     }
 .cancel_membership, .cancel_membership:visited {
     transition: 0.4s;
+    justify-content: space-between;
     background-color: #2F2F2F;
     padding: 15px ;
     border-radius: 5px;
     color: #FFFFFF;
+    text-align: center;
     cursor: pointer;
 }
 .cancel_membership:hover{
@@ -41,6 +46,8 @@ header{
     color: #232323;
 }
 nav{
+    display: none;
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
     background-color: #232323;
@@ -51,9 +58,11 @@ nav{
 .nav_left{
     color:#FFFFFF
 }
+
  /*Page with download button*/
 .download{
-    background: linear-gradient( #00093A 20%, #111111 100%);
+    background-color: #0C0C15
+    
 }
 .top_download{
     display: flex;
@@ -63,10 +72,10 @@ nav{
 .left_download{
     width: 60%;
     height: 60%;
+    
 }
 .right_download{
-    width: 35%;
-    height: 35%;
+    
     display: flex;
     flex-direction: column;
 }
@@ -95,7 +104,7 @@ nav{
     display: flex;
     flex-direction: column;
     background-color: #232323;;
-    padding: 20px 50px 20px 50px;
+    padding: 20px 20px ;
     align-items: center;
 }
 .dl_txt{
@@ -130,6 +139,10 @@ nav{
     justify-content: space-between;
     padding: 0px 50px 10px 50px;
 }
+.flechebas{
+    margin-bottom: 20px;
+}
+
  /*Line with checkmark*/
 .check{
     display: flex;
@@ -138,7 +151,8 @@ nav{
  /*Part 2 with  Why VPN*/
 .why_vpn{
     background-color:#0C0C15 ;
-    padding: 50px 250px 100px 250px;
+    padding: 80px;
+    
 }
 .vpn_title{
     font-size: 30px;
@@ -150,18 +164,25 @@ nav{
     font-family: Arial, Helvetica, sans-serif;
     color:#FFFFFF;
     display: flex;
+    max-width: 800px;
     text-align: center;
+    margin: 0 auto;
 }
+.vpn_title h1{
+    margin: 0;
+    padding: 40px;
+}
+
 /* features */
 .features{
     text-align: center;
-    padding: 100px 280px 150px 280px;
+    padding: 50px 0px ;
     background-color: #060606;
 }
 .f_titles{
     color:#0FA2DB;
     font-size: 30px;
-    padding: 50px;
+    text-align: center;
 }
 .bot_features{
     color: #FFFFFF;
@@ -171,7 +192,8 @@ nav{
 }
 .description_features{
     display: flex;
-    flex-direction: column;   
+    flex-direction: column; 
+    padding: 0 5%;  
 }
 .description_features a:hover{
     color: #0FA2DB;
@@ -183,13 +205,14 @@ nav{
 /* three step */
 .three_steps{
     background-color: #232323;
-    padding: 60px 200px 60px 200px;
+    
 }
 
 .top_three_steps{
     font-size: 25px;
     text-align: center;
-    padding-bottom: 60px;
+    padding-top: 30px;
+
 }
 
 .white_three_steps{
@@ -201,10 +224,9 @@ nav{
 }
 
 .bottom_three_steps{
-
+    padding: 35px;
     color: #FFFFFF;
     display: flex;
-    justify-content: center;
     justify-content: space-between;
     text-align: center;
 }
@@ -281,6 +303,180 @@ nav{
     display: flex;
     align-items: center;
     margin: 9px 0px 9px 0px;
+}
+
+@media screen and (max-width:1620px){
+    .bot_features{
+        flex-wrap: wrap;  
+        padding: 0 5%;
+    }
+    
+}
+@media screen and (max-width:1320px){
+    .vpn_image{
+        height: 110%;
+        width: 110%;
+    }
+    .br_download{
+        text-align: center;
+    }
+    .tr_download{
+        text-align: center;
+    }
+    .bot_features{
+        flex-wrap: wrap;
+        padding: 0 5%;
+    }
+    
+}
+@media screen and (max-width:1250px){
+    .bot_features{
+        flex-wrap: wrap;
+        padding: 0 5%;
+    }
+}
+@media screen and (max-width: 1024px){
+    nav{
+        justify-content: center;
+        text-align: center;
+        justify-content: space-between;
+    }
+    .top_download{
+        padding: 30px 100px;
+    }
+}    
+@media screen and (max-width:1000px){
+       .right_protection{
+        display: none;
+       } 
+}
+@media screen and (max-width: 968px){
+    nav{
+        text-align: center;
+        justify-content: space-between;
+        flex-wrap: unset;
+    }
+    .left_download{
+        display: none;
+        
+    }
+    .top_download{
+        justify-content: center;
+    }
+    .right_download{
+        align-items: center;
+    }
+
+    .bottom_three_steps{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .description_three_steps{
+        padding: 10px;
+    }    
+}
+@media screen and (max-width: 680px){
+    .cancel_membership{
+        
+        margin: 11px;
+        display: inline-block;
+    }
+    header{
+        justify-content: center;
+    }
+    .left{
+        margin-bottom: 8px;
+    }
+    nav{
+        justify-content: center;
+        text-align: center;
+    }
+    .nav_right{
+        padding-top: 10px;
+    }
+    main{
+        justify-content: center;
+    }
+    .left_download{
+        display: none;
+    }
+    .right_download{
+        
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        
+    }
+    .top_download{
+        justify-content: center ;
+        padding: 0px;
+    }
+    .br_download{
+        display: flex;
+        justify-content: center;
+    }
+    .bot_download{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .check{
+        padding-top:10px;
+    }
+    .top_protection h1{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 500px){
+    .cancel_membership{ 
+        padding: 10px;
+        padding-top: 8px;
+    }
+    .bluedownload{
+        font-size: 22;
+    }
+    .whitedownload{
+        font-size: 15px;
+    }
+    .white_three_steps{
+        font-size: 23px;
+    }
+    .blue_three_steps{
+        font-size: 23px;
+    }
+    .nav_left{
+        display: block;
+        margin: 10px; 
+    }
+    nav{
+        display: block;
+        padding: 25px;
+    }
+    .bot_download{
+        padding: 50px 20px;
+    }
+    .vpn_text{
+        font-size:23px;
+    }
+    .vpn_title h1{
+        font-size: 30px;
+    }
+    .why_vpn{
+        padding: 50px 30px;
+    }
+    .features{
+        padding: 100px 160px;
+    }
+    .f_titles h1{
+        font-size: 33px;
+        padding: 0px 10px;
+    }
+    .left_protection{
+        padding: 0px;
+    }
+    .bottom_protection{
+        padding-left: 50px;
+    }
 }
 /* aside */
 aside{
